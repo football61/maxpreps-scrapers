@@ -12,8 +12,9 @@ from time import sleep
 import pandas as pd
 import re
 
-
-
+#To use this script, you need a geocodes api from google.  To get one, go to www.developers.google.com.
+# Register an application, grab a geocodes api.  Insert the code between the '' in YOUR_API_KEY = '' below.
+#This will give you coordinates for most schools as well as the school address.
 
 def maxpreps_geocoords(maxpreps_high_school_name, state):
     YOUR_API_KEY = ''
