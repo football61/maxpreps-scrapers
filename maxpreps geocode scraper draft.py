@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Jun  1 21:46:25 2022
-
-@author: paulkelly
-"""
-
 import requests
 from lxml import html
 from time import sleep
